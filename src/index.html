@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    @@include('layouts/head.html', {
+        "title": "Главная страница"
+    })
+
+<body>
+
+    @@include('layouts/header.html', {
+        "page": "home"
+    })
+
+    <section class="banner banner__top">
+        <div class="container">
+            <div class="banner__content">
+                <div class="banner__text">
+                    <p>Крафтовые лакомства для собак</p>
+                    <span>Всегда свежие лакомства ручной работы с доставкой по России и Миру</span>
+                    <a class="btn" href="#">Каталог <img src="@img/icons/ic-right-arrow.svg" alt=""></a>
+                </div>
+                
+                <img class="banner__img" src="@img/banner_top.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="menu">
+        <div class="container">
+            <div class="menu__cards">
+                <a class="card" href="">
+                    <img src="@img/icons/ic-cat-01.svg" alt="">
+                    Наборы
+                </a>
+                <a class="card" href="">
+                    <img src="@img/icons/ic-cat-03.svg" alt="">
+                    Лакомства
+                </a>
+                <a class="card" href="">
+                    <img src="@img/icons/ic-cat-04.svg" alt="">
+                    Аксессуары
+                </a>
+                <a class="card" href="">
+                    <img src="@img/icons/ic-cat-05.svg" alt="">
+                    Игрушки
+                </a>
+                <a class="card" href="">
+                    <img src="@img/icons/ic-cat-07.png" alt="">
+                    Рога
+                </a>
+                <a class="card" href="">
+                    <img src="@img/icons/ic-cat-06.svg" alt="">
+                    Масла
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="banner">
+        <div class="container">
+            <div class="banner__main">
+                <img class="img-fluid" src="@img/banner_prize.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="section__products">
+        <div class="container">
+            <div class="header__section">
+                <div class="title">Хиты</div>
+                <div class="arrows">
+                    <div class="arr arr__prev">
+                        <img src="@img/icons/ic-left-arrow.svg" alt="">
+                    </div>
+                    <div class="arr arr__next">
+                        <img src="@img/icons/ic-right-arrow.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="products">
+                <div class="product">
+                    <div class="product__content">
+                        <img src="@img/products/product_1.png" alt="">
+                        <div class="product__price">
+                            <div class="old__price">1 200 ₽</div>
+                            <div class="new__price">840 ₽</div>
+                        </div>
+                        <div class="product__count">1 шт</div>
+                        <div class="product__title">
+                            <a href="#">Рога оленя для собак весом от 10 до 30 кг. Размер L</a>
+                        </div>
+                        <button>В корзину</button>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="@img/products/product_2.png" alt="">
+                </div>
+                <div class="product">
+                    <img src="@img/products/product_3.png" alt="">
+                </div>
+                <div class="product">
+                    <img src="@img/products/product_4.png" alt="">
+                </div>
+                <div class="product">
+                    <img src="@img/products/product_2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="banner">
+        <div class="container">
+            <div class="banners">
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section__products">
+        <div class="container">
+            <div class="header__section">
+                <div class="title">Лакомства</div>
+            </div>
+            <div class="products">
+    
+            </div>
+        </div>
+    </section>
+
+    <section class="section__products">
+        <div class="container">
+            <div class="header__section">
+                <div class="title">Игрушки</div>
+            </div>
+            <div class="products">
+    
+            </div>
+        </div>
+    </section>
+
+    @@include('layouts/footer.html', {})
+
+    <script src="js/app.min.js"></script>
+    
+</body>
+</html>

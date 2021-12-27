@@ -1,0 +1,26 @@
+// plugins
+$slick-font-path: "../files/slick/fonts/" !default;
+$slick-font-family: "slick" !default;
+$slick-loader-path: "../files/slick/" !default;
+$slick-arrow-color: black !default;
+
+@import "../files/slick/slick";
+@import "../files/slick/slick-theme";
+
+// base
+@import "base/base";
+
+// block
+@import "block/nav";
+@import "block/header";
+@import "block/banner";
+@import "block/home";
+@import "block/menu";
+@import "block/products";
+
+// components
+@import "components/btn";
+@import "components/slick";
+
+// pages
+@import "pages/news";

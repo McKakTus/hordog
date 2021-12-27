@@ -1,0 +1,11 @@
+.header__section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    .title {
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 32px;
+    }
+}

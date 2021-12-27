@@ -1,0 +1,25 @@
+.menu {
+    &__cards {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 40px;
+        background-color: var(--white);
+        box-shadow: 0px 2px 4px rgba(40, 41, 61, 0.04), 0px 8px 16px rgba(96, 97, 112, 0.16);
+        border-radius: 20px;
+        min-height: 132px;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 92px;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 700;
+        img {
+            margin-bottom: 20px;
+        }
+    }
+}

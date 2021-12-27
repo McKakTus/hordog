@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    @@include('layouts/head.html', {
+        "title": "Главная страница"
+    })
+
+<body>
+
+    @@include('layouts/header.html', {})
+
+    <section class="news">
+        <div class="container">
+            <div class="news__items">
+                <div class="news__items_one">
+                    <div class="news__item" style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/news/news_1.jpg) no-repeat center; background-size: cover;">
+                        
+                    </div>
+                </div>
+                <div class="news__items_second">
+                    <div class="news__item" style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/news/news_2.jpg) no-repeat center; background-size: cover;">
+                        
+                    </div>
+                    <div class="news__item" style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/news/news_3.jpg) no-repeat center; background-size: cover;">
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    @@include('layouts/footer.html', {})
+
+<script src="js/app.min.js"></script>
+
+</body>
+</html>

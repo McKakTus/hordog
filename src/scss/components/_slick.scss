@@ -1,0 +1,16 @@
+.arrows {
+    display: flex;
+    .arr {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 32px;
+        width: 32px;
+        background: #ECEFF1;
+        border-radius: 87px;
+        cursor: pointer;
+    }
+    .arr__prev {
+        margin-right: 12px;
+    }
+}
