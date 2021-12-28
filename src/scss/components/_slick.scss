@@ -9,8 +9,13 @@
         background: #ECEFF1;
         border-radius: 87px;
         cursor: pointer;
+        transition: all 0.3s ease;
+        &.slick-disabled {
+            pointer-events: none;
+            opacity: 0.5;
+        }
     }
-    .arr__prev {
+    .prev {
         margin-right: 12px;
     }
 }
