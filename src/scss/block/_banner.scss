@@ -51,4 +51,12 @@
             border-radius: 20px;
         }
     }
+
+    &__link {
+        display: flex;
+    }
+
+    .banners {
+        max-height: 220px;
+    }
 }

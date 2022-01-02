@@ -10,7 +10,8 @@
         border-radius: 87px;
         cursor: pointer;
         transition: all 0.3s ease;
-        &.slick-disabled {
+        &.slick-disabled,
+        &[aria-disabled="true"] {
             pointer-events: none;
             opacity: 0.5;
         }
@@ -18,4 +19,11 @@
     .prev {
         margin-right: 12px;
     }
+}
+
+.slick-slide {
+    margin: 0 8px;
+}
+.slick-list {
+    margin: 0 -8px;
 }

@@ -1,0 +1,105 @@
+.section__reviews {
+    margin: 40px 0;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    &__product {
+        display: flex;
+        max-height: 116px;
+    }
+    .product {
+        &__img {
+            width: 100%;
+            max-width: 116px;
+            height: 116px;
+            margin-right: 24px;
+            img {
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        &__content {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        } 
+        &__title {
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: 700;
+        }
+        &__rating {
+            display: flex;
+            margin: 8px 0 18px;
+        }
+    }
+    .view__all_reviews {
+        font-size: 12px;
+        line-height: 14px;
+        font-weight: 700;
+        border: 1px solid #CFD8DC;
+        padding: 9px 9px 9px 16px;
+        border-radius: 87px;
+        margin-top: auto;
+    }
+    &__content {
+        display: flex;
+        flex-direction: column;
+        margin-top: 16px;
+        padding-top: 16px;
+        border-top: 1px solid #ECEFF1;
+        p {
+            font-size: 14px;
+            line-height: 20px;
+            padding-bottom: 16px;
+            &:last-child {
+                padding-bottom: 0;
+            }
+        }
+        .images {
+            display: flex;
+        }
+    }
+    .user {
+        &__info {
+            display: flex;
+            align-items: flex-end;
+            margin-bottom: 8px;
+            .name {
+                font-size: 20px;
+                line-height: 24px;
+                font-weight: 800;
+                margin-right: 8px;
+            }
+            .data {
+                font-size: 14px;
+                line-height: 20px;
+                font-weight: 400;
+                color: var(--secondary-text);
+            }
+        }
+        &__city {
+            display: block;
+            font-size: 12px;
+            line-height: 14px;
+            font-weight: 400;
+            color: var(--secondary-text);
+            padding-bottom: 16px;
+            a {
+                color: var(--yellow);
+            }
+        }
+    }
+    &__img {
+        width: 100%;
+        max-width: 90px;
+        height: 60px;
+        border-radius: 8px;
+        margin-right: 16px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
