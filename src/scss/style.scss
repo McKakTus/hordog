@@ -6,8 +6,6 @@ $slick-arrow-color: black !default;
 
 @import "../files/slick/slick";
 @import "../files/slick/slick-theme";
-
-// @import "../files/swiper/swiper-bundle.min.css";
   
 // base   
 @import "base/base";
@@ -24,6 +22,8 @@ $slick-arrow-color: black !default;
 // components
 @import "components/btn";
 @import "components/slick";
+@import "components/footer";
+@import "components/contact-form";
 
 // pages
 @import "pages/news";

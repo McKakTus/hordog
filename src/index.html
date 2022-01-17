@@ -839,7 +839,29 @@
         </div>
     </section>
 
-    @@include('layouts/footer.html', {})
+    <section class="contact-form">
+        <div class="container">
+            <div class="contact">
+                <div class="content">
+                    <h2>Остались <p>вопросы?</p>
+                    </h2>
+                    <span>Заполните пожалуйста поля ниже, чтобы мы могли связаться с вами</span>
+                    <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+                        <input class="first__name" type="text" id="fname" name="firstname" placeholder="Ваше имя">
+                        <input class="email" type="email" id="email" placeholder="Телефон или Email">
+                        <button class="submit">Отправить</button>
+                    </form>
+                </div>
+                <img class="dog" src="@img/dog.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    @@include('layouts/footer.html', {
+        "page": "home"
+    })
+
+    <div class="background__bottom"></div>
 
     <script src="js/app.min.js"></script>
     
